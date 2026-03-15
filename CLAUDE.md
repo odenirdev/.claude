@@ -7,7 +7,7 @@
 - Package manager: varies by project — always check the lockfile before assuming (`pnpm-lock.yaml`, `package-lock.json`, `yarn.lock`, `go.sum`, `requirements.txt`, `pom.xml`)
 
 ## Language
-- Always respond in **English**
+- Always respond in **Brazilian Portuguese**
 - Code comments in English (industry standard)
 - Commit messages in English following Conventional Commits
 
