@@ -27,6 +27,6 @@ When running in **auto-accept mode** (tools are approved automatically without u
 3. **Stop and wait** for explicit user confirmation before proceeding. Accepted confirmations: "yes", "ok", "sim", "vai", "confirma", "go ahead", "proceed", or equivalent.
 4. Only after receiving explicit confirmation, run `git commit`.
 
-In normal mode (where the user manually approves each tool call), proceed directly to `git commit` — the tool approval prompt already serves as confirmation.
+In **normal mode** (where the user manually approves each tool call), skip all the steps above and run `git commit` directly — no need to show the proposed message or ask for confirmation. The tool approval prompt is sufficient.
 
 Do not use any other tools or do anything else.
