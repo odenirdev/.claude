@@ -18,4 +18,15 @@ Based on the above changes, create a single git commit following these rules:
    - If `CLAUDE.md` defines a commit convention, follow it strictly.
    - If no convention is defined, default to **Conventional Commits** (`feat`, `fix`, `chore`, `docs`, `refactor`, `test`, `perf`), in English, imperative mood, no trailing period. Example: `feat(auth): add OAuth2 integration with Google`.
 
+## SECURITY RULE — MANDATORY in auto-accept mode
+
+When running in **auto-accept mode** (tools are approved automatically without user interaction), **NEVER execute `git commit` automatically.** Follow this exact sequence:
+
+1. Draft the commit message based on the staged changes and CLAUDE.md conventions.
+2. **Show the proposed commit message to the user** in a clearly formatted block.
+3. **Stop and wait** for explicit user confirmation before proceeding. Accepted confirmations: "yes", "ok", "sim", "vai", "confirma", "go ahead", "proceed", or equivalent.
+4. Only after receiving explicit confirmation, run `git commit`.
+
+In normal mode (where the user manually approves each tool call), proceed directly to `git commit` — the tool approval prompt already serves as confirmation.
+
 Do not use any other tools or do anything else.
