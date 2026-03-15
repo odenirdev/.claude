@@ -1,0 +1,1 @@
+/Users/odenirgomes/.claude/plugins/marketplaces/claude-plugins-official/plugins/commit-commands/commands/clean_gone.md

@@ -1,0 +1,1 @@
+/Users/odenirgomes/.claude/plugins/marketplaces/claude-plugins-official/plugins/hookify/commands/configure.md

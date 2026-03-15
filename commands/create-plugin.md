@@ -1,0 +1,1 @@
+/Users/odenirgomes/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/commands/create-plugin.md

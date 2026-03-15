@@ -1,0 +1,27 @@
+# Cache e dados temporários
+cache/
+debug/
+downloads/
+session-env/
+sessions/
+shell-snapshots/
+statsig/
+telemetry/
+file-history/
+backups/
+ide/
+
+# Dados sensíveis / histórico de conversas
+history.jsonl
+stats-cache.json
+mcp-needs-auth-cache.json
+
+# Dados de projetos (contém histórico de conversas sensíveis)
+# Exceção: memória persistente do projeto ~/.claude
+projects/
+!projects/-Users-odenirgomes--claude/
+!projects/-Users-odenirgomes--claude/memory/
+!projects/-Users-odenirgomes--claude/memory/**
+
+# Todos (auto-gerados em volume)
+todos/

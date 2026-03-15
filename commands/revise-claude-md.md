@@ -1,0 +1,1 @@
+/Users/odenirgomes/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/commands/revise-claude-md.md

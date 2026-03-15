@@ -1,0 +1,1 @@
+/Users/odenirgomes/.claude/plugins/marketplaces/claude-plugins-official/plugins/agent-sdk-dev/commands/new-sdk-app.md
